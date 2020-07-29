@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+  background: #222831;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+  font-weight: lighter;
+  color: #EEEEEE;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: #EEEEEE;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  color: #EEEEEE;
+  font-weight: lighter
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 15px;
+  color: #EEEEEE;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background: #393E46;
+  padding: 50px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+  border: 1px solid #393E46;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1)
+}
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.btn-blue {
+  background-color: #222831;
+  color: #ECF0F1;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.btn-blue:hover {
+  background-color: #EEEEEE;
+  color: black;
+}
+.list-inline {
+  padding: 0px;
+}
+.list-inline > li {
+  display: block;
+  font-size: 45px;
+  display: inline;
+  padding: 8px;
+}
+.list-inline > li > a:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
