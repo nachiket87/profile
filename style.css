@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 body {
   background: #222831;
   font-family: 'Roboto Mono', monospace;
@@ -12,7 +13,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   color: #EEEEEE;
   font-weight: 900;
@@ -26,8 +27,12 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 24px;
   color: #EEEEEE;
+}
+
+a:hover {
+  color: blue;
 }
 
 a {
